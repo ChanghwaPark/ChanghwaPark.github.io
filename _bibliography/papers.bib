@@ -18,6 +18,9 @@
   title={Joint contrastive learning for unsupervised domain adaptation},
   author={Park, Changhwa and Lee, Jonghyun and Yoo, Jaeyoon and Hur, Minhoe and Yoon, Sungroh},
   journal={arXiv preprint arXiv:2006.10297},
+  abstract={Enhancing feature transferability by matching marginal distributions has led to improvements in domain adaptation, although this is at the expense of feature discrimination. In particular, the ideal joint hypothesis error in the target error upper bound, which was previously considered to be minute, has been found to be significant, impairing its theoretical guarantee. In this paper, we propose an alternative upper bound on the target error that explicitly considers the joint error to render it more manageable. With the theoretical analysis, we suggest a joint optimization framework that combines the source and target domains. Further, we introduce Joint Contrastive Learning (JCL) to find class-level discriminative features, which is essential for minimizing the joint error. With a solid theoretical framework, JCL employs contrastive loss to maximize the mutual information between a feature and its label, which is equivalent to maximizing the Jensen-Shannon divergence between conditional distributions. Experiments on two real-world datasets demonstrate that JCL outperforms the state-of-the-art methods.},
+  arXiv={2006.10297},
+  bibtex_show={true},
   year={2020}
 }
 
@@ -25,6 +28,8 @@
   title={Removing Undesirable Feature Contributions Using Out-of-Distribution Data},
   author={Saehyung Lee and Changhwa Park and Hyungyu Lee and Jihun Yi and Jonghyun Lee and Sungroh Yoon},
   booktitle={International Conference on Learning Representations},
+  abstract={Several data augmentation methods deploy unlabeled-in-distribution (UID) data to bridge the gap between the training and inference of neural networks. However, these methods have clear limitations in terms of availability of UID data and dependence of algorithms on pseudo-labels. Herein, we propose a data augmentation method to improve generalization in both adversarial and standard learning by using out-of-distribution (OOD) data that are devoid of the abovementioned issues. We show how to improve generalization theoretically using OOD data in each learning scenario and complement our theoretical analysis with experiments on CIFAR-10, CIFAR-100, and a subset of ImageNet. The results indicate that undesirable features are shared even among image data that seem to have little correlation from a human point of view. We also present the advantages of the proposed method through comparison with other data augmentation methods, which can be used in the absence of UID data. Furthermore, we demonstrate that the proposed method can further improve the existing state-of-the-art adversarial training.},
+  bibtex_show={true},
   year={2021},
   url={https://openreview.net/forum?id=eIHYL6fpbkA},
   html={https://openreview.net/forum?id=eIHYL6fpbkA}
@@ -34,9 +39,11 @@
   title={Deep learning for anomaly detection in time-series data: review, analysis, and guidelines},
   author={Choi, Kukjin and Yi, Jihun and Park, Changhwa and Yoon, Sungroh},
   journal={IEEE Access},
+  abstract={As industries become automated and connectivity technologies advance, a wide range of systems continues to generate massive amounts of data. Many approaches have been proposed to extract principal indicators from the vast sea of data to represent the entire system state. Detecting anomalies using these indicators on time prevent potential accidents and economic losses. Anomaly detection in multivariate time series data poses a particular challenge because it requires simultaneous consideration of temporal dependencies and relationships between variables. Recent deep learning-based works have made impressive progress in this field. They are highly capable of learning representations of the large-scaled sequences in an unsupervised manner and identifying anomalies from the data. However, most of them are highly specific to the individual use case and thus require domain knowledge for appropriate deployment. This review provides a background on anomaly detection in time-series data and reviews the latest applications in the real world. Also, we comparatively analyze state-of-the-art deep-anomaly-detection models for time series with several benchmark datasets. Finally, we offer guidelines for appropriate model selection and training strategy for deep learning-based time series anomaly detection.},
+  bibtex_show={true},
   year={2021},
-  publisher={IEEE}
->>>>>>> Updated bib.
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9523565}
 }
 
 @article{kim2022transfer,
