@@ -131,7 +131,6 @@ permalink: /blog/:year/:title/
 pagination:
   enabled: true
 
-<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -152,11 +151,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-=======
-# Comments
 disqus_shortname: # put your disqus shortname
->>>>>>> Updated config.
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -359,13 +354,8 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics:  false  # enables cronitor RUM analytics
-=======
 enable_google_analytics:    true   # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
->>>>>>> Updated config.
+enable_cronitor_analytics:  false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
