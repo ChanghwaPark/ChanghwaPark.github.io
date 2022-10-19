@@ -123,14 +123,15 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: # blog_name will be displayed in your blog page
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
+<<<<<<< HEAD
 related_blog_posts:
   enabled: true
   max_related: 5
@@ -152,14 +153,18 @@ giscus:
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: al-folio # put your disqus shortname
+=======
+# Comments
+disqus_shortname: # put your disqus shortname
+>>>>>>> Updated config.
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: 
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -172,7 +177,7 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
@@ -274,8 +279,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Park]
+  first_name: [Changhwa]
 
   style: apa
   locale: en
@@ -354,8 +359,13 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 enable_google_analytics:    false  # enables google analytics
 enable_cronitor_analytics:  false  # enables cronitor RUM analytics
+=======
+enable_google_analytics:    true   # enables google analytics
+enable_panelbear_analytics: false  # enables panelbear analytics
+>>>>>>> Updated config.
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
