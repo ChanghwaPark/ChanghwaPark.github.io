@@ -27,14 +27,14 @@
         - "GPA: 3.93/4.30 (total), 4.08/4.30 (major)"
         - "March 2012 - February 2019"
     - title: Exchange Student Program
-      institution: Cockrell School of Engineering, UT Austin
+      institution: Cockrell School of Engineering, UT Austin, US
       year: 2018
       description:
         - "Electrical and Computer Engineering" 
         - "GPA: 3.96/4.00"
         - "August 2017 - May 2018" 
     - title: High School
-      institution: Seoul Science High School
+      institution: Seoul Science High School, Seoul, Korea
       year: 2012
       description:
         - "Specialized high school for students talented in math and science" 
@@ -45,12 +45,15 @@
   type: time_table
   contents:
     - title: Machine Learning Engineer
-      institution: 42dot Inc.
+      institution: 42dot Inc., Seoul, Korea
       year: 2022 - 
+      description:
+        - "September 2022 - Present"
     - title: AI Research Engineer
-      institution: AIRS Company, Hyundai Motor Group
+      institution: AIRS Company, Hyundai Motor Group, Seoul, Korea
       year: 2021 - 2022
       description:
+        - "March 2021 - September 2022"
         - title: Class imbalance research
           contents:
             - Proposed a mutual learning framework that generates high-quality representations in long-tailed settings and established a new state-of-the-art record on several long-tailed benchmark datasets.
@@ -61,37 +64,88 @@
           contents:
             - Developed machine learning algorithm using tabular data to automate wheel alignment for a smart factory.
 
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Undergraduate Research Intern
+      institution: Data Science & AI Lab, Seoul National University, Seoul, Korea
+      year: 2018 - 2019
+      description:
+        - "July 2018 - February 2019"
+        - title: Domain adaptation through label propagation
+          contents:
+            - "Advisor: Prof. Sungroh Yoon"
+            - To learn domain invariant and class-wise discriminative features, applied label propagation method and enforced cycle consistency. Proved theoretical rationale and achieved competitive performance.
+    
+    - title: Undergraduate Research Intern
+      institution: Wireless Networking and Communications Group, UT Austin, US
+      year: 2018
+      description:
+        - "January 2018 - May 2018"
+        - title: URLLC performance analysis
+          contents:
+            - "Advisor: Prof. Jeff Andrews"
+            - Studied existing URLLC schemes used in industrial and vehicular networks and incorporated these schemes into a probabilistic framework that enables performance analysis.
 
-- title: Honors and Awards
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
+    - title: Renal Progression Risk Prediction
+      institution: Seoul National University Hospital, Seoul, Korea
+      year: 2020 - 2021
+      description:
+        - "May 2020 - February 2021"
+        - Analyzed machine learning approaches for the relationship between dyslipidemia and renal outcomes.
+    
+    - title: AI Consortium for Transfer Learning Research
+      institution: Hyundai Motor Group, Seoul, Korea
+      year: 2019 - 2021
+      description:
+        - "April 2019 - February 2021"
+        - Built domain adaptation model that utilizes contrastive learning to enhance feature discriminability.
+
+    - title: Domain-Adversarial Training of Neural Networks
+      year: 2020
+      description:
+        - Implemented Domain-Adversarial Training of Neural Networks (Ganin et al., 2016) with TensorFlow 2.0.
+    
+    - title: Exercise Capacity Prediction using Body Composition Data
+      institution: Hilaris, Seoul, Korea
+      year: 2019
+      description:
+        - "February 2019 - October 2019"
+        - Built deep learning model to predict the exercise capacity of each person using supervised learning.
+
+- title: Scholarships and Awards
+  type: time_table
+  contents:
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Third place, Hyundai Motor Group Programming Festival
+    - year: 2017
       items: 
-        - Max Planck Medal
+        - OIA Outgoing Exchange Student Scholarship
+    - year: 2017
+      items: 
+        - Full Scholarship granted by Sinyang Cultural Foundation
+    - year: 2014
+      items: 
+        - Academic Incentive from Electrical and Computer Engineering Scholarship Foundation
+    - year: 2012
+      items: 
+        - Eminence Scholarship granted by Seoul National University
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - items: 
+        - Deep learning
+        - Domain adaptation
+        - Long-tailed recognition
 
-- title: Other Interests
+- title: Professional Services
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>NeurIPS conference reviewer:</u> 2020, 2021, 2022
+    - <u>ICLR conference reviewer:</u> 2020, 2022
+    - <u>ICML conference reviewer:</u> 2022
