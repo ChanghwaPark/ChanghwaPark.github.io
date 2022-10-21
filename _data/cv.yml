@@ -138,7 +138,8 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - items: 
+    - title: Deep learning
+      items: 
         - Deep learning
         - Domain adaptation
         - Long-tailed recognition
