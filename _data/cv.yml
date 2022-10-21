@@ -140,7 +140,6 @@
   contents:
     - title: Deep learning
       items: 
-        - Deep learning
         - Domain adaptation
         - Long-tailed recognition
 
