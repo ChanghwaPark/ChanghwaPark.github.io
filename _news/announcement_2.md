@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined 42dot Inc. as a machine learning engineer.
+Joined 42dot Inc., Hyundai Motor Group as a machine learning engineer.
