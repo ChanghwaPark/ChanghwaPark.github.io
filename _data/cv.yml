@@ -45,18 +45,26 @@
   type: time_table
   contents:
     - title: Machine Learning Engineer
-      institution: 42dot Inc., Seoul, Korea
-      year: 2022 - 
+      institution: LG Energy Solution, Seoul, Korea
+      year: 2023 - 
       description:
-        - "September 2022 - Present"
+        - "January 2023 - Present"
+        - title: Anomaly detection for a smart factory
+          contents:
+            - Developed an anomaly detection algorithm tailored for the vision inspection of battery, integrating optimized training, positional encoding, and ROI masking techniques.
+    - title: Machine Learning Engineer
+      institution: 42dot Inc., Hyundai Motor Group, Seoul, Korea
+      year: 2022 - 2023 
+      description:
+        - "September 2022 - January 2023"
+        - title: Class imbalance research
+          contents:
+            - Proposed a mutual learning framework that generates high-quality representations in long-tailed settings and established a new state-of-the-art record on several long-tailed benchmark datasets.
     - title: AI Research Engineer
       institution: AIRS Company, Hyundai Motor Group, Seoul, Korea
       year: 2021 - 2022
       description:
         - "March 2021 - September 2022"
-        - title: Class imbalance research
-          contents:
-            - Proposed a mutual learning framework that generates high-quality representations in long-tailed settings and established a new state-of-the-art record on several long-tailed benchmark datasets.
         - title: AutoML website, full stack development
           contents:
             - Developed both client-side and server-side of the website for AutoML service from the ground.
@@ -140,12 +148,13 @@
   contents:
     - title: Deep learning
       items: 
-        - Domain adaptation
         - Long-tailed recognition
+        - Anomaly detection
+        - Domain adaptation
 
 - title: Professional Services
   type: list
   contents:
-    - <u>NeurIPS conference reviewer:</u> 2020, 2021, 2022
-    - <u>ICLR conference reviewer:</u> 2020, 2022
-    - <u>ICML conference reviewer:</u> 2022
+    - <u>NeurIPS conference reviewer:</u> 2020 - 2023
+    - <u>ICLR conference reviewer:</u> 2020, 2022, 2024
+    - <u>ICML conference reviewer:</u> 2022 - 2024
